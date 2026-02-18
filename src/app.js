@@ -17,4 +17,5 @@ function render(items) { // grabs the ul element that already exists in the html
   });
 }
 
+
 init(); // calls init when the file runs
