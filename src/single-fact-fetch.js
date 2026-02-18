@@ -1,12 +1,13 @@
 export const getSingleFact = async () => {
     try {
-        const response = await fetch('https://mewfacts.herokuapp.com/')
+        const response = await fetch('https://meowfacts.herokuapp.com/')
         if (!response.ok) {
             throw Error(`Failed to fetch fact.`);
         }
         const responseData = await response.json()
+        const fact = responseData.data[0]
         return {
-            data: responseData.data[0],
+            data: fact,
             error: null
         }    
     }

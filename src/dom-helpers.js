@@ -1,4 +1,4 @@
-export const renderSingleFact = (data) => {
+export const renderSingleFact = (fact) => {
     const factH2 = document.querySelector("#single-fact")
-    factH2.textContent = `Did you know?: ` // set to fact in data object (e.g ${data.fact})
+    factH2.textContent = `Did you know?: ${fact}`
 }
