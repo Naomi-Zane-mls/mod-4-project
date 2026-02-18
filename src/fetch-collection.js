@@ -1,14 +1,19 @@
-const API_URL = 'https://meowfacts.herokuapp.com/';
 
-async function fetchCollection() {
+
+async function fetchCollection(num) {
 try {
-    const response = await fetch(API_URL);
+    const response = await fetch(`https://meowfacts.herokuapp.com/?count=${num}`);
     if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
     const data = await response.json();
-    return data;
+    return {
+      data: data.data,
+      error: null
+
+    }
+    
 
   } catch (error) {
     console.warn('Failed to fetch collection:', error);
