@@ -10,7 +10,7 @@ function render(items) { // grabs the ul element that already exists in the html
   const ul = document.querySelector('ul');
 
   items.forEach(item => { // loops over every item in the array one at a time
-    const li = document.createElement('li'); // creates a neew li element in memory, its not on the page (yet)
+    const li = document.createElement('li'); // creates a new li element in memory, its not on the page (yet)
     li.dataset.id = item.id; // sets the data-id attribute on the li. dataset.id is the JS way of writing data-id in html. li data-id="123" this lets me identift which item was clicked
     li.textContent = item.name; //put fields for the API returns
     ul.appendChild(li); // adds the li to the ul on the page. everything before this was building it in memory, this is the line that makes it appear
