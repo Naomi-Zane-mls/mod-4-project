@@ -16,7 +16,6 @@ const getAndRenderSingleFact = async () => {
     }
     console.log(factObj)
     renderSingleFact(factObj.data)
-    successMessage.textContent = 'Fact found!'
 }
 
 singleFactButton.addEventListener('click', () => {
