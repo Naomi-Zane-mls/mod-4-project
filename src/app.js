@@ -15,8 +15,3 @@ export function render(facts) { // grabs the ul element that already exists in t
     factList.appendChild(li); // adds the li to the ul on the page. everything before this was building it in memory, this is the line that makes it appear
   });
 }
-
-
-
-// form event handling
-
