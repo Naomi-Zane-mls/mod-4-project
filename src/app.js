@@ -18,3 +18,19 @@ function render(items) { // grabs the ul element that already exists in the html
 }
 
 init(); // calls init when the file runs
+
+
+// form event handling
+const form = document.querySelector('#generate-form');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault(); // stops the browsers default form bahavior which would refresh the page
+
+  const factCount = document.querySelector('#fact-count').value;
+
+  console.log({ factCount });
+
+  form.reset();
+});
+
+init();
