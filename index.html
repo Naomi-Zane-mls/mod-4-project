@@ -3,30 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kitty Kollection: Cat Facts</title>
 </head>
 <body>
-<h1>placeholder</h1>
+    <header>
+        <img id="logo" src="placeholder" alt="placeholder">
+        <h1>Cat Facts</h1>
+    </header>
+    <main>
     <section id="single-fact-container">
         <p id="error-message"></p>
-        <p id="success-message"></p>
         <h2 id="single-fact"></h2>
     </section>
     <button id="single-fact-button">Generate Cat Fact!</button>
     <section id="multiple-fact-container">
         <ul id="cat-fact-list"></ul>
-    </section>
-    <script type="module" src="src/main.js"></script>
-</body>
+                <form id="generate-form">
+                <div> 
+                    <label for="fact-count">Number of Facts</label> 
+                    <input type="number" id="fact-count" name="count" min="1" max="500" value="1" required />
+                </div>
+                    <button type="submit">Generate Cat Facts!</button>
+                </form>
+            </section>
+            
+        </main>
+        <footer>
+            <p>By Naomi S. and Zane C.</p>
+            <p>Check out this project on <a href="https://github.com/Naomi-Zane-mls/mod-4-project">GitHub</a></p>
+        </footer>
+        <script type="module" src="src/main.js"></script>
+    </body>
 </html>
-
-<!-- generate facts form section -->
-<form id="generate-form">
-  <h2>Generate Cat Facts</h2>
-
- <div> 
-    <label for="fact-count">Number of facts</label> 
-  <input type="number" id="fact-count" name="count" min="1" max="500" value="1" required />
-</div>
-  <button type="submit">Generate Facts</button>
-</form>
