@@ -125,3 +125,22 @@ form {
 a:hover {
     color: var(--calico_orange);
 }
+
+
+/* mobile */
+
+@media (max-width: 768px) {
+    main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    ul {
+        grid-template-columns: 1fr;
+    }
+
+    #cat-fact-list > li {
+        max-width: 100%;
+    }
+}
+    
