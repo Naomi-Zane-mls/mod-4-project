@@ -1,5 +1,3 @@
-
-
 async function fetchCollection(num) {
 try {
     const response = await fetch(`https://meowfacts.herokuapp.com/?count=${num}`);
