@@ -9,21 +9,25 @@
 <body>
     <header>
         <img id="logo" src="img/logo.png" alt="Cat Paw Logo">
-        <h1>Cat Facts</h1>
+        <h1>Kitty Kollection: Cat Facts</h1>
     </header>
     <main>
-    <section id="single-fact-container">
+    <section id="fact-container">
+        <h2>Did you Know?</h2>
         <p id="error-message"></p>
         <p id="single-fact"></p>
-        <ul id="cat-fact-list"></ul>
+        <section>
+            <ul id="fact-list"></ul>
+        </section>
     </section>
     <section id="button-and-form">
         <button id="single-fact-button">Generate Cat Fact!</button>
-      <section id="multiple-fact-container">
+      <section id="form-container">
                 <form id="generate-form">
-                <div> 
+                    <h2>Want to Generate More?</h2>
+                <div id="label-and-input"> 
                     <label for="fact-count">Number of Facts:</label> 
-                    <input type="number" id="fact-count" name="count" min="1" max="500" value="1" required />
+                    <input type="number" id="fact-count" name="count" min="1" max="500" value="0" required />
                 </div>
                     <button id="form-button" type="submit">Generate Cat Facts!</button>
                 </form>
