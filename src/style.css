@@ -1,1 +1,127 @@
+:root {
+    --calico_white: #FCFCF0;
+    --calico_grey: #EBE5D5;
+    --calico_orange: #E07E3D;
+    --calico_brown: #8F6C49;
+    --calico_black: #4A3432;
+    --font_family: 'Daily Vibes', Arial, sans-serif;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font_family);
+    background-color: var(--calico_white);
+    color: var(--calico_black);
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* font */
+
+@font-face {
+    font-family: 'Daily Vibes';
+    src: url('../fonts/Daily\ Vibes.otf') format('opentype');
+}
+
+/* header */
+header {
+    padding: 15px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+}
+
+
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#cat-fact-list>li {
+    padding: 15px;
+    text-align: center;
+    background-color: var(--calico_grey);
+    max-height: 200px;
+    max-width: 200px;
+    overflow: auto;
+    border: 3px solid var(--calico_black);
+}
+
+#cat-fact-list>li:hover {
+    border-color: var(--calico_orange);
+    color: var(--calico_grey);
+    background-color: var(--calico_orange);
+
+}
+
+#single-fact {
+    text-align: center;
+    margin: 20px;
+}
+
+#single-fact:hover {
+    color: var(--calico_orange); 
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+button, #form-button {
+    background-color: var(--calico_orange);
+    color: var(--calico_white);
+    border: 3px solid var(--calico_black);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#logo {
+    width: 60px;
+}
+
+#button-and-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 3px solid var(--calico_black);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+a:hover {
+    color: var(--calico_orange);
+}
