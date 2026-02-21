@@ -63,13 +63,14 @@ main {
     max-width: 200px;
     overflow: auto;
     border: 3px solid var(--calico_black);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 #fact-list>li:hover {
     border-color: var(--calico_orange);
     color: var(--calico_grey);
     background-color: var(--calico_orange);
-
+    transform: translateY(-2px);   
 }
 
 #single-fact {
@@ -101,12 +102,14 @@ button, #form-button {
     border: 3px solid var(--calico_black);
     border-radius: 3px;
     padding: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 button:hover, #form-button:hover {
     background-color: var(--calico_black);
     color: var(--calico_orange);
     border: 3px solid var(--calico_orange);
+    transform: translateY(-2px);
 }
 
 #logo {
@@ -128,18 +131,18 @@ form {
     border-radius: 3px;
 }
 
+a {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
 a:hover {
     color: var(--calico_orange);
+    transform: translateY(-2px);
 }
 
 footer>p {
     display: flex;
     
-}
-
-#member-name {
-    
-    color: var(--calico_orange);
 }
 
 h2 {
