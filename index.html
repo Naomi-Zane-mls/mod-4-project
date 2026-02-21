@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kitty Kollection: Cat Facts</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
     <header>
-        <img id="logo" src="placeholder" alt="placeholder">
+        <img id="logo" src="img/logo.png" alt="Cat Paw Logo">
         <h1>Cat Facts</h1>
     </header>
     <main>
     <section id="single-fact-container">
         <p id="error-message"></p>
-        <h2 id="single-fact"></h2>
-    </section>
-    <button id="single-fact-button">Generate Cat Fact!</button>
-    <section id="multiple-fact-container">
+        <p id="single-fact"></p>
         <ul id="cat-fact-list"></ul>
+    </section>
+    <section id="button-and-form">
+        <button id="single-fact-button">Generate Cat Fact!</button>
+      <section id="multiple-fact-container">
                 <form id="generate-form">
                 <div> 
-                    <label for="fact-count">Number of Facts</label> 
+                    <label for="fact-count">Number of Facts:</label> 
                     <input type="number" id="fact-count" name="count" min="1" max="500" value="1" required />
                 </div>
-                    <button type="submit">Generate Cat Facts!</button>
+                    <button id="form-button" type="submit">Generate Cat Facts!</button>
                 </form>
             </section>
-            
+    </section>
         </main>
         <footer>
             <p>By Naomi S. and Zane C.</p>
