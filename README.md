@@ -8,7 +8,7 @@ A fun and interactive web application that lets users generate random cat facts,
 
 ## 🔗 Live Link
 
-[View the live site](#) ← _replace with the deployed URL_
+[View the live site](https://naomi-zane-mls.github.io/mod-4-project/)
 
 ---
 
