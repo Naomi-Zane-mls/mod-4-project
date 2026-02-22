@@ -57,6 +57,12 @@ A fun and interactive web application that lets users generate random cat facts,
 
 ---
 
+## ✨ AI Usage Document
+
+This project provided me an opportunity to build something with AI assistance. Check out my [AI Usage Document](https://docs.google.com/document/d/1dPP0-DGIHHNuis0p75gy_gcvOWyxynNS2V-O18kEYD4/edit?usp=sharing) to see how i used AI on this project.
+
+---
+
 ## ⚙️ Setup Instructions
 
 1. Clone the repository:

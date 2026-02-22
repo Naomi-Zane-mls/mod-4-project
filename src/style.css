@@ -140,6 +140,8 @@ a {
 
 a:hover {
     color: var(--calico_orange);
+}
+
     transform: translateY(-2px);
 }
 
@@ -199,6 +201,10 @@ a {
     grid-template-columns: 1fr;
   }
 
+  #cat-fact-list > li {
+    max-width: 100%;
+  }
+}
   #fact-list > li {
     max-width: 100%;
   }
