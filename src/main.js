@@ -11,9 +11,9 @@ const errorMessage = document.querySelector("#error-message");
 const singleFactButton = document.querySelector('#single-fact-button');
 const singleFactEl = document.querySelector('#single-fact');
 const form = document.querySelector('#generate-form');
-const singleMeow = new Audio('sfx/singlemeow.mp3')
-const multipleMeow = new Audio('sfx/multiplemeow.mp3')
-const favoriteMeow = new Audio('sfx/favoritemeow.mp3')
+const singleMeow = new Audio(`${import.meta.env.BASE_URL}sfx/singlemeow.mp3`)
+const multipleMeow = new Audio(`${import.meta.env.BASE_URL}sfx/multiplemeow.mp3`)
+const favoriteMeow = new Audio(`${import.meta.env.BASE_URL}sfx/favoritemeow.mp3`)
 const muteButton = document.querySelector('#mute-button')
 let isMuted = false;
 
