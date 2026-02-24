@@ -2,7 +2,7 @@
 
 # 🐱 Kitty Kollection: Cat Facts
 
-A fun and interactive web application that lets users generate random cat facts, search by ID, save favorites, and even read facts in different languages. Built with vanilla JavaScript and powered by the meowfacts API.
+A fun and interactive web application that lets users generate random cat facts, and save your favorites. Built with vanilla JavaScript and powered by the meowfacts API.
 
 ---
 
@@ -41,8 +41,6 @@ A fun and interactive web application that lets users generate random cat facts,
 
 ### Stretch Features
 
-- Choose a language to display facts in (English, Spanish, French, German, and more)
-- Search for a specific fact by its ID
 - Toggle sound effects for actions like generating and saving facts
 
 ---
@@ -59,7 +57,7 @@ A fun and interactive web application that lets users generate random cat facts,
 
 ## ✨ AI Usage Document
 
-This project provided me an opportunity to build something with AI assistance. Check out my [AI Usage Document](https://docs.google.com/document/d/1dPP0-DGIHHNuis0p75gy_gcvOWyxynNS2V-O18kEYD4/edit?usp=sharing) to see how i used AI on this project.
+This project provided us an opportunity to build something with AI assistance. Check out our [AI Usage Document](https://docs.google.com/document/d/1dPP0-DGIHHNuis0p75gy_gcvOWyxynNS2V-O18kEYD4/edit?usp=sharing) to see how we used AI on this project.
 
 ---
 
@@ -89,9 +87,6 @@ This project provided me an opportunity to build something with AI assistance. C
 ---
 
 ## 📸 Screenshots
-
-- We will add screenshots or GIFs of the app here once deployed.\*
-
 | Desktop View  | Mobile View  |
 | ------------- | ------------ |
-| ![desktop](#) | ![mobile](#) |
+| ![desktop](img/projectexampledesktop.png) | ![mobile](img/projectexamplemobile.png) |
